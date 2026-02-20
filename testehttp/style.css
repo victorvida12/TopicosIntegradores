@@ -1,0 +1,55 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo do botão */
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
